@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <declare-styleable name="PickerView">
+        <attr name="pickerVisibleCount" format="integer" />
+        <attr name="pickerIsLoop" format="boolean" />
+
+        <attr name="pickerNormalTextColor" format="color" />
+        <attr name="pickerCenterTextColor" format="color" />
+        <attr name="pickerTextSizeScale" format="float" />
+        <attr name="pickerTextAlphaScale" format="float" />
+
+        <attr name="pickerDividerColor" format="color" />
+        <attr name="pickerDividerHeight" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="ComplexPickerView">
+        <attr name="pickerVisibleCount" />
+        <attr name="pickerIsLoop" />
+
+        <attr name="pickerTextSizeScale" />
+        <attr name="pickerTextAlphaScale" />
+
+        <attr name="pickerNormalTextColor" />
+        <attr name="pickerCenterTextColor" />
+
+        <attr name="pickerDividerColor" />
+        <attr name="pickerDividerHeight" />
+    </declare-styleable>
+</resources>

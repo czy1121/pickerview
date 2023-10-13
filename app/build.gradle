@@ -1,0 +1,9 @@
+
+apply from: "$buildGradlePath/build-demo.gradle"
+
+
+dependencies {
+
+    implementation project(":pickerview-chinesedate")
+    implementation project(":pickerview-datetime")
+}
